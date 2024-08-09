@@ -24,3 +24,12 @@ This project implements a face detection system using OpenCV in Python. The main
 3. **View Results:** Captured face images will be stored in the specified directory.
 
 This project is a foundational implementation aimed at real-time face detection and can be extended for more advanced applications like facial recognition, emotion detection, or security systems.
+
+## Note
+- Run the code on an enviorement having Tensorflow(Latest version) and CV2 installed.
+- Run the whole file let your webcam take photos, create the folders needed manually.
+- The model will be saved as
+  ''' bash
+   FileName.h5
+  '''
+  file that can be used for further integration to any system as per usfulness. 
